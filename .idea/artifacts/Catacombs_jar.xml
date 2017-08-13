@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Catacombs.jar">
+    <output-path>$PROJECT_DIR$/../Catacombs Server Cauldron/plugins</output-path>
+    <root id="archive" name="Catacombs.jar">
+      <element id="module-output" name="Catacombs" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>

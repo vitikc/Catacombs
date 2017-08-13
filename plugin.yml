@@ -1,0 +1,57 @@
+main: me.vitikc.catacombs.CCMain
+name: Catacombs
+author: Naitora
+authors: [Vitikc]
+version: 1.3
+depend: [WorldEdit, Vault]
+commands:
+  cc:
+    description: Main command
+    usage: /<command>
+    permission: catacombs.main
+  cc create:
+    description: Creates catacomb
+    usage: /<command>
+    permission: catacombs.create
+  cc list:
+    description: Shows catacomb's list
+    usage: /<command>
+    permission: catacombs.list
+  cc help:
+    description: Shows help message
+    usage: /<command>
+    permission: catacombs.help
+  cc respawn:
+    description: Respawns mobs in region <argument>
+    usage: /<command> <argument>
+    permission: catacombs.respawn
+  cc remove:
+    description: Removes region and spawn with name <argument>
+    usage: /<command> <argument>
+    permission: catacombs.remove
+  cc spawn:
+    description: Creates spawner <name> with <amount> mobs of type <type>
+    usage: /<command> <name> <type> <amount>
+    permission: catacombs.create
+permisions:
+  catacombs.*:
+    default: false
+    children:
+      catacombs.main: true
+      catacombs.create: true
+      catacombs.list: true
+      catacombs.respawn: true
+      catacombs.remove: true
+      catacombs.help: true
+  catacombs.main:
+    default: false
+  catacombs.create:
+    default: false
+  catacombs.list:
+    default: false
+  catacombs.respawn:
+    default: false
+  catacombs.remove:
+    default: false
+  catacombs.help:
+    default: false

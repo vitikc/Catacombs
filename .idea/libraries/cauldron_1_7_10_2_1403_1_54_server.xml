@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cauldron-1.7.10-2.1403.1.54-server">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Catacombs Server Cauldron/cauldron-1.7.10-2.1403.1.54-server.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
